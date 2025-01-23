@@ -1,20 +1,8 @@
-# ProtocolLayerExplorer
+# Comparação dos Modelos OSI vs. TCP/IP
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
-**ProtocolLayerExplorer** é uma ferramenta baseada na web projetada para comparar os modelos OSI e TCP/IP, destacando suas semelhanças e diferenças. Ela permite que os usuários explorem as camadas de ambos os modelos, os protocolos associados e fornece informações detalhadas sobre cada protocolo.
-
-## Índice
-
-- [Introdução](#introdução)
-- [Imagens](#imagens)
-- [Funcionalidades](#funcionalidades)
-- [Como Usar](#como-usar)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Comparação dos Modelos](#comparação-dos-modelos)
-- [Protocolos](#protocolos)
-- [Licença](#licença)
-
+Essa é uma ferramenta baseada na web projetada para comparar os modelos OSI e TCP/IP, destacando suas semelhanças e diferenças. Ela permite que os usuários explorem as camadas de ambos os modelos, os protocolos associados e fornece informações detalhadas sobre cada protocolo.
 
 ## Introdução
 
@@ -100,10 +88,6 @@ O modelo TCP/IP é uma versão simplificada e amplamente utilizada de rede. Ele 
 
 - **Camada**: Aplicação (Camada 7 do OSI, Camada 4 do TCP/IP)
 - **Descrição**: O FTP é usado para transferir arquivos entre sistemas através de uma rede. Ele opera na camada de aplicação e fornece conexões de controle e dados.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Notas Adicionais
 
