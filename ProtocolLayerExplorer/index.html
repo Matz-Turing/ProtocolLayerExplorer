@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSI vs. TCP/IP</title>
+    <link rel="icon" href="1.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Comparador de Protocolos e Modelos de Rede (OSI vs. TCP/IP)</h1>
+
+    <h2>Tabela Comparativa: OSI vs. TCP/IP</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Camada</th>
+                <th>Modelo OSI</th>
+                <th>Modelo TCP/IP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camada 7</td>
+                <td>Aplicação</td>
+                <td>Aplicação</td>
+            </tr>
+            <tr>
+                <td>Camada 6</td>
+                <td>Apresentação</td>
+                <td rowspan="2">Aplicação</td>
+            </tr>
+            <tr>
+                <td>Camada 5</td>
+                <td>Sessão</td>
+            </tr>
+            <tr>
+                <td>Camada 4</td>
+                <td>Transporte</td>
+                <td>Transporte</td>
+            </tr>
+            <tr>
+                <td>Camada 3</td>
+                <td>Rede</td>
+                <td>Internet</td>
+            </tr>
+            <tr>
+                <td>Camada 2</td>
+                <td>Enlace de Dados</td>
+                <td>Rede</td>
+            </tr>
+            <tr>
+                <td>Camada 1</td>
+                <td>Física</td>
+                <td>Interface de Rede</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Selecione um Protocolo para Detalhes</h2>
+    <select id="protocoloSelect">
+        <option value="none">Escolha um Protocolo</option>
+        <option value="http">HTTP</option>
+        <option value="tcp">TCP</option>
+        <option value="ip">IP</option>
+        <option value="ethernet">Ethernet</option>
+        <option value="ftp">FTP</option>
+    </select>
+
+    <div id="detalhes">
+        <h3>Detalhes do Protocolo</h3>
+        <p id="descricao"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
