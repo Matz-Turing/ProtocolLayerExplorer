@@ -27,11 +27,7 @@ O aplicativo **ProtocolLayerExplorer** oferece uma experiência interativa para 
 
 ![Captura de Tela Principal](img/1.png)
 
-*Acima está uma captura de tela inicial da aplicação.*
-
-![Captura de Tela Principal](img/2.png)
-
-*Acima está uma captura de tela detalhada da aplicação com as principais funcionalidades.*
+*Acima está uma captura de tela da aplicação.*
 
 ---
 
